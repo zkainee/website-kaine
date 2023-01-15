@@ -1,0 +1,7 @@
+.toggleDarkmode:checked {
+    background: #007ff8;
+}
+.dark {
+    color: #ffffff;
+    background: #595858;
+}
