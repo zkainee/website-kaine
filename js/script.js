@@ -1,5 +1,3 @@
-let darkToggle = document.querySelector('#toggleDarkmode');
-
-    darkToggle.addEventListener('change', ()=> {
-    document.body.classList.toggle('dark');
-})
+//  Author: Kaine van Ommeren
+//  Date: February 2023
+//  File: script.js
