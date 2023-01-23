@@ -3,6 +3,8 @@
     Date: February 2023
     File: style.css
  */
+html { overflow-y: hidden; }
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
