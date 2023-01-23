@@ -4,6 +4,10 @@
  *  Date: February 2023
  *  File: index.php
  */
+
+date_default_timezone_set("Europe/Amsterdam");
+$currentTime = date("H:i A")
+
 ?>
 <!doctype html>
 <html lang="nl">
@@ -44,22 +48,6 @@
                         </p>
                     </div>
                 </div>
-<!--                <img class="d-block mx-auto mb-4" src="./img/xp-app-logo.png" alt="" width="64px" height="64px">-->
-<!--                <h1 class="display-5 fw-bold">Lorem ipsum dolor sit amet</h1>-->
-<!--                <div class="col-lg-6 mx-auto">-->
-<!--                    <p class="lead mb-4">-->
-<!--                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
-<!--                        Eu consequat ac felis donec et. Nunc aliquet bibendum enim facilisis gravida neque convallis.-->
-<!--                        Dolor purus non enim praesent. Neque sodales ut etiam sit amet nisl.-->
-<!--                        Leo vel fringilla est ullamcorper. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.-->
-<!--                        Convallis a cras semper auctor neque vitae tempus quam.-->
-<!--                        Platea dictumst quisque sagittis purus sit amet volutpat consequat. Viverra tellus in hac habitasse.-->
-<!--                    </p>-->
-<!--                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">-->
-<!--                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Lorem</button>-->
-<!--                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Ipsum</button>-->
-<!--                    </div>-->
-<!--                </div>-->
             </div>
         </div>
     <!-- NAVBAR-->
@@ -91,12 +79,16 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="bg-light rounded-1 px-3 d-flex">
-                        <p class="p-1 w-100">hbdsjgvfdsgvdfv</p>
+<!--                    <div class="bg-light rounded-1 px-3 d-flex">-->
+<!--                        <p class="p-1 w-100">hbdsjgvfdsgvdfv</p>-->
+<!--                    </div>-->
+                    <div class="col-1 bg-right-blue">
+                        <p class="text-center text-white"><?php echo $currentTime ?></p>
                     </div>
                 </div>
             </nav>
         </div>
         <script src="./js/bootstrap.bundle.min.js" defer></script>
     </body>
+</html>
 <?php //include "./includes/footer.php" ?>
