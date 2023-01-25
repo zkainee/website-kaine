@@ -26,18 +26,21 @@ $currentTime = date("H:i A")
         <title>Website | Kaine</title>
     </head>
     <body background="./img/xp-wallpaper.png">
+        <?php
+        include "./includes/windows.php";
+
+        ?>
         <div class="px-4 py-5 my-5 text-center">
-            <div class="">
+            <div id="toggleWindow">
                 <div class="window display-8 mx-auto col-lg-5">
                     <div class="title-bar">
                         <div class="title-bar-text">Lorem ipsum dolor sit amet</div>
                         <div class="title-bar-controls">
-                            <button aria-label="Minimize"></button>
-                            <button aria-label="Maximize"></button>
-                            <button aria-label="Close"></button>
+                            <button aria-label="Minimize" onclick="toggleView()"></button>
+                            <button aria-label="Close" onclick="toggleView()"></button>
                         </div>
                     </div>
-                    <div class="window-body">
+                    <div class="window-body portID">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Eu consequat ac felis donec et. Nunc aliquet bibendum enim facilisis gravida neque convallis.
@@ -61,7 +64,7 @@ $currentTime = date("H:i A")
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="./pages/portfolio.php"><img src="./img/winrar-app-logo.png" title="Portfolio" width="32px" height="32px" alt="winrar-logo"></a>
+                                <a class="nav-link active" id="openTab" onclick="openTab()" href="#"><img src="./img/winrar-app-logo.png" title="Portfolio" width="32px" height="32px" alt="winrar-logo"></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="./pages/contact.php"><img src="./img/msn-app-logo.png" title="Contact" width="32px" height="32px" alt="msn-logo"></a>
@@ -79,9 +82,6 @@ $currentTime = date("H:i A")
                             </li>
                         </ul>
                     </div>
-<!--                    <div class="bg-light rounded-1 px-3 d-flex">-->
-<!--                        <p class="p-1 w-100">hbdsjgvfdsgvdfv</p>-->
-<!--                    </div>-->
                     <div class="col-1 bg-right-blue">
                         <p class="text-center text-white"><?php echo $currentTime ?></p>
                     </div>
