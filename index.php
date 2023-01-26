@@ -16,7 +16,7 @@ $currentTime = date("H:i A")
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="icon" href="./img/icon-title.png">
+        <link rel="icon" href="img/icons/icon-title.png">
         <link href="./css/bootstrap.css" rel="stylesheet">
         <link href="./css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/xp.css">
@@ -55,25 +55,27 @@ $currentTime = date("H:i A")
         </div>
     <!-- NAVBAR-->
         <div class="container">
-            <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-blue">
+            <nav class="start footer-padding navbar fixed-bottom navbar-expand-sm">
                 <div class="container-fluid">
-                    <img src="./img/xp-app-logo.png" alt="logo" height="32px" width="32px">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="">
+                        <img src="img/icons/xp-app-logo.png" alt="logo" height="32px" width="32px">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" id="openTab" onclick="openTab()" href="#"><img src="./img/winrar-app-logo.png" title="Portfolio" width="32px" height="32px" alt="winrar-logo"></a>
+                                <a class="nav-link active" id="openTab" onclick="openTab()" href="#"><img src="img/icons/winrar-app-logo.png" title="Portfolio" width="32px" height="32px" alt="winrar-logo"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./pages/contact.php"><img src="./img/msn-app-logo.png" title="Contact" width="32px" height="32px" alt="msn-logo"></a>
+                                <a class="nav-link active" href="./pages/contact.php"><img src="img/icons/msn-app-logo.png" title="Contact" width="32px" height="32px" alt="msn-logo"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./pages/about-me.php"><img src="./img/ie-app-logo.png" title="Over mij" width="32px" height="32px" alt="ie-logo" ></a>
+                                <a class="nav-link active" href="./pages/about-me.php"><img src="img/icons/ie-app-logo.png" title="Over mij" width="32px" height="32px" alt="ie-logo" ></a>
                             </li>
                             <li class="nav-item dropup">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img src="./img/game-app-logo.png" alt="game-logo" width="32px" height="32px"></a>
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img src="img/icons/game-app-logo.png" alt="game-logo" width="32px" height="32px"></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -82,7 +84,7 @@ $currentTime = date("H:i A")
                             </li>
                         </ul>
                     </div>
-                    <div class="col-1 bg-right-blue">
+                    <div class="col-1">
                         <p class="text-center text-white"><?php echo $currentTime ?></p>
                     </div>
                 </div>

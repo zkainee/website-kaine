@@ -55,3 +55,25 @@ html { overflow-y: hidden; }
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+.start {
+    line-height: 32px;
+    background: url("./img/menu-bar/menu-bar.png");
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    user-select: none;
+}
+.footer-padding {
+    font-size: 13px !important;
+    border-radius: 0 !important;
+}
+.menu-start {
+    height: 32px;
+    background: url("./img/menu-bar/menu-bar-start.png");
+    padding: 0 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    color: #ddd;
+}
