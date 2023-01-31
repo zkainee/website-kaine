@@ -55,6 +55,12 @@ html { overflow-y: hidden; }
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+.end-menu-bar {
+    height: 32px;
+}
+.bg-bar {
+    background: url("img/menu-bar/menu-bar.png");
+}
 .start {
     line-height: 32px;
     background: url("./img/menu-bar/menu-bar.png");
@@ -62,6 +68,11 @@ html { overflow-y: hidden; }
     bottom: 0;
     width: 100vw;
     user-select: none;
+}
+.start-bar {
+    padding: 5px 10px 2px 25px;
+    max-height: 32px;
+    line-height: normal;
 }
 .footer-padding {
     font-size: 13px !important;

@@ -26,10 +26,6 @@ $currentTime = date("H:i A")
         <title>Website | Kaine</title>
     </head>
     <body background="./img/xp-wallpaper.png">
-        <?php
-        include "./includes/windows.php";
-
-        ?>
         <div class="px-4 py-5 my-5 text-center">
             <div id="toggleWindow">
                 <div class="window display-8 mx-auto col-lg-5">
@@ -54,42 +50,47 @@ $currentTime = date("H:i A")
             </div>
         </div>
     <!-- NAVBAR-->
-        <div class="container">
-            <nav class="start footer-padding navbar fixed-bottom navbar-expand-sm">
-                <div class="container-fluid">
-                    <div class="">
-                        <img src="img/icons/xp-app-logo.png" alt="logo" height="32px" width="32px">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="openTab" onclick="openTab()" href="#"><img src="img/icons/winrar-app-logo.png" title="Portfolio" width="32px" height="32px" alt="winrar-logo"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./pages/contact.php"><img src="img/icons/msn-app-logo.png" title="Contact" width="32px" height="32px" alt="msn-logo"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./pages/about-me.php"><img src="img/icons/ie-app-logo.png" title="Over mij" width="32px" height="32px" alt="ie-logo" ></a>
-                            </li>
-                            <li class="nav-item dropup">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img src="img/icons/game-app-logo.png" alt="game-logo" width="32px" height="32px"></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-1">
-                        <p class="text-center text-white"><?php echo $currentTime ?></p>
-                    </div>
+            <div class="start footer-padding navbar fixed-bottom navbar-expand-sm bg">
+                <!-- START -->
+                <div class="">
+                    <img src="img/icons/xp-app-logo.png" alt="logo" height="32px" width="32px">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
-            </nav>
-        </div>
+                <!-- CENTER -->
+                <div class="start-bar bg-bar navbar-collapse" id="navbarCollapse">
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="openTab" onclick="openTab()" href="#"><img src="img/icons/winrar-app-logo.png" title="Portfolio" width="32px" height="32px" alt="winrar-logo"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/contact.php"><img src="img/icons/msn-app-logo.png" title="Contact" width="32px" height="32px" alt="msn-logo"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/about-me.php"><img src="img/icons/ie-app-logo.png" title="Over mij" width="32px" height="32px" alt="ie-logo" ></a>
+                        </li>
+                        <li class="nav-item dropup">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img src="img/icons/game-app-logo.png" alt="game-logo" width="32px" height="32px"></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END -->
+                <div class="end-menu-bar">
+                    <p class="text-center text-white"><?php echo $currentTime ?></p>
+                </div>
+            </div>
         <script src="./js/bootstrap.bundle.min.js" defer></script>
     </body>
 </html>
