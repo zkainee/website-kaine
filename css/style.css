@@ -3,37 +3,22 @@
     Date: February 2023
     File: style.css
  */
-html { overflow-y: hidden; }
-
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
+html {
+    overflow-y: hidden;
+    height: 100%;
+}
+body {
+    background-image: url("/img/xp-wallpaper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 .bg-blue {
     background-color: #225ad1;
 }
 .bg-right-blue {
     background-color: #0396f5;
-}
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-.b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-}
-.b-example-vr {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 100vh;
 }
 .bi {
     vertical-align: -.125em;
@@ -58,25 +43,39 @@ html { overflow-y: hidden; }
 .end-menu-bar {
     height: 32px;
 }
-.bg-bar {
-    background: url("img/menu-bar/menu-bar.png");
+.end-menu-bar-bg {
+    background: url("/img/menu-bar/menu-bar-end.png");
 }
 .start {
     line-height: 32px;
-    background: url("./img/menu-bar/menu-bar.png");
+    padding: 0px;
     position: fixed;
     bottom: 0;
     width: 100vw;
     user-select: none;
 }
+.start-begin {
+    height: 32px;
+    background: url("/img/menu-bar/menu-bar-start.png");
+}
+.start-begin-between {
+    padding: 16px 7px 16px;
+    background: url("/img/menu-bar/menu-bar-start-end.png");
+}
 .start-bar {
-    padding: 5px 10px 2px 25px;
+    padding: 1px 5px 0px 1px;
     max-height: 32px;
     line-height: normal;
+    background: url("/img/menu-bar/menu-bar.png");
 }
 .footer-padding {
     font-size: 13px !important;
     border-radius: 0 !important;
+}
+.end-begin-between {
+    height: 32px;
+    background: url("/img/menu-bar/menu-bar-end-start.png");
+    padding: 16px 5px 16px;
 }
 .menu-start {
     height: 32px;
