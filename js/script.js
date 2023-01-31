@@ -16,5 +16,4 @@ function openTab() {
     } else {
         openID.style.display = "block";
     }
-
 }

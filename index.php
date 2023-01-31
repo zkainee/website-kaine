@@ -26,31 +26,24 @@ $currentTime = date("H:i A")
         <title>Website | Kaine</title>
     </head>
     <body>
-        <div class="px-4 py-5 my-5 text-center">
-            <div id="toggleWindow">
-                <div class="window display-8 mx-auto col-lg-5">
-                    <div class="title-bar">
-                        <div class="title-bar-text">Lorem ipsum dolor sit amet</div>
-                        <div class="title-bar-controls">
-                            <button aria-label="Minimize" onclick="toggleView()"></button>
-                            <button aria-label="Close" onclick="toggleView()"></button>
-                        </div>
+        <div class="position-static center" id="toggleWindow">
+            <div class="window mx-auto col-lg-2">
+                <div class="title-bar">
+                    <div class="title-bar-text">Welkom's bericht</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close" onclick="toggleView()"></button>
                     </div>
-                    <div class="window-body portID">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Eu consequat ac felis donec et. Nunc aliquet bibendum enim facilisis gravida neque convallis.
-                            Dolor purus non enim praesent. Neque sodales ut etiam sit amet nisl.
-                            Leo vel fringilla est ullamcorper. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
-                            Convallis a cras semper auctor neque vitae tempus quam.
-                            Platea dictumst quisque sagittis purus sit amet volutpat consequat. Viverra tellus in hac habitasse.
-                        </p>
+                </div>
+                <div class="window-body portID">
+                    <div class="">
+                        <h3 class="text-lg-start">Hi, mijn naam is</h3>
+                        <h2 class="text-lg-end fw-bold">Kaine</h2>
                     </div>
                 </div>
             </div>
         </div>
     <!-- NAVBAR-->
-            <div class="start footer-padding navbar fixed-bottom navbar-expand-sm bg">
+            <div class="start footer-padding navbar fixed-bottom navbar-expand-sm ">
                 <!-- START -->
                 <div class="start-begin">
                     <img src="img/icons/xp-app-logo.png" alt="logo" height="32px" width="32px">
@@ -61,13 +54,13 @@ $currentTime = date("H:i A")
                 <div class="start-bar bg-bar navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" id="openTab" onclick="openTab()" href="#"><img src="img/icons/winrar-app-logo.png" title="Portfolio" width="28px" height="28px" alt="winrar-logo"></a>
+                            <a class="nav-link active" href="#"><img src="img/icons/winrar-app-logo.png" title="Portfolio" width="28px" height="28px" alt="winrar-logo"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./pages/contact.php"><img src="img/icons/msn-app-logo.png" title="Contact" width="28px" height="28px" alt="msn-logo"></a>
+                            <a class="nav-link active" href="#"><img src="img/icons/msn-app-logo.png" title="Contact" width="28px" height="28px" alt="msn-logo"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./pages/about-me.php"><img src="img/icons/ie-app-logo.png" title="Over mij" width="28px" height="28px" alt="ie-logo" ></a>
+                            <a class="nav-link active" href="#"><img src="img/icons/ie-app-logo.png" title="Over mij" width="28px" height="28px" alt="ie-logo" ></a>
                         </li>
                         <li class="nav-item dropup">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img src="img/icons/game-app-logo.png" alt="game-logo" width="28px" height="28px"></a>
@@ -89,4 +82,3 @@ $currentTime = date("H:i A")
         <script src="./js/bootstrap.bundle.min.js" defer></script>
     </body>
 </html>
-<?php //include "./includes/footer.php" ?>
