@@ -6,6 +6,7 @@
 html {
     overflow-y: hidden;
     height: 100%;
+    font-family: Tahoma, Arial, serif;
 }
 body {
     background-image: url("/img/xp-wallpaper.png");

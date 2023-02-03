@@ -1,5 +1,8 @@
 <?php
 
+date_default_timezone_set("Europe/Amsterdam");
+$currentTime = date("H:i A")
+
 ?>
 <!doctype html>
 <html lang="nl">
@@ -10,27 +13,59 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="icon" href="../img/icons/icon-title.png">
         <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <link href="https://unpkg.com/xp.css" rel="stylesheet" >
         <script rel="script" src="../js/bootstrap.js" defer></script>
-        <link href="../css/bootstrap-utilities.css" rel="stylesheet" >
+        <script rel="script" src="../js/script.js" defer></script>
+        <link href="../css/bootstrap-utilities.css" rel="stylesheet">
         <title>Website | Kaine</title>
     </head>
-    <body class="bg-light">
-        <nav class="nav m-3">
-            <!-- NAVIGATION -->
-            <div class="container">
-                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 145 134">
-                        <image id="logo" data-name="logo" width="100" height="100" href="#"></image>
-                    </svg>
-                    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="../index.php" class="nav-link px-2 link-secondary">Home</a></li>
-                        <li><a href="/website-kaine/pages/about-me.php" class="nav-link px-2 link-dark">Over mij</a></li>
-                        <li><a href="/website-kaine/pages/portfolio.php" class="nav-link px-2 link-dark">Portfolio</a></li>
-                        <li><a href="/website-kaine/pages/contact.php" class="nav-link px-2 link-dark">Contact</a></li>
-                    </ul>
-                </header>
+    <body>
+        <div class="position-static center pt-md-5" id="toggleWindow">
+            <div class="window mx-auto col-lg-4">
+                <div class="title-bar">
+                    <div class="title-bar-text">Over mij:</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close" onclick="toggleView()"></button>
+                    </div>
+                </div>
+                <div class="window-body portID">
+                    <div class="">
+                        <h4 class="text-lg-start">Liefde voor het volgende:</h4>
+                        <h5>Longboarden, snowboarden & programmeren. Daarnaast kook ik graag wat ik in het verleden een aantal jaar heb gedaan als Kok. Groot liefhebber van gezelligheid, sociaal & muziek!</h5>
+                    </div>
+                </div>
             </div>
-        </nav>
-
+        </div>
+        <!-- NAVBAR-->
+        <div class="start footer-padding navbar fixed-bottom navbar-expand-sm ">
+            <!-- START -->
+            <div class="start-begin">
+                <a href="../index.php" title="Start"><img src="../img/icons/xp-app-logo.png" alt="logo" height="32px" width="32px"></a>
+            </div>
+            <div class="start-begin-between">
+            </div>
+            <!-- CENTER -->
+            <div class="start-bar bg-bar navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../pages/portfolio.php"><img src="../img/icons/winrar-app-logo.png" title="Portfolio" width="28px" height="28px" alt="winrar-logo"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../pages/contact.php"><img src="../img/icons/msn-app-logo.png" title="Contact" width="28px" height="28px" alt="msn-logo"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><img src="../img/icons/ie-app-logo.png" title="Over mij" width="28px" height="28px" alt="ie-logo" ></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- END -->
+            <div class="end-begin-between">
+            </div>
+            <div class="end-menu-bar">
+                <p class="text-center text-white end-menu-bar-bg"><?php echo $currentTime ?></p>
+            </div>
+        </div>
+        <script src="./js/bootstrap.bundle.min.js" defer></script>
     </body>
-<?php include "../includes/footer.php" ?>
+</html>
