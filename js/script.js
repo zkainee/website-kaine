@@ -1,6 +1,7 @@
 //  Author: Kaine van Ommeren
 //  Date: February 2023
 //  File: script.js
+
 function toggleView() {
     var toggleID = document.getElementById("toggleWindow");
     if (toggleID.style.display === "none") {
@@ -17,3 +18,9 @@ function openTab() {
         openID.style.display = "block";
     }
 }
+// function toggleNavbarResponsive() {
+//     var navExpand = document.getElementsByClassName("navbarExpand");
+//     if (navExpand.style.display === "fles !important" && navExpand.style.flexBasis === "auto") {
+//         navExpand.hidden;
+//     }
+// }

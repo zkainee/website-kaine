@@ -54,7 +54,7 @@ $currentYear = date("Y");
             <div class="start-begin-between">
             </div>
             <!-- CENTER -->
-            <div class="start-bar bg-bar navbar-collapse" id="navbarCollapse">
+            <div class="start-bar bg-bar navbar-collapse navbarExpand" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" href="./pages/portfolio.php"><img src="img/icons/winrar-app-logo.png" title="Portfolio" width="28px" height="28px" alt="winrar-logo"></a>

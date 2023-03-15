@@ -32,7 +32,12 @@ $currentTime = date("H:i A")
                 <div class="window-body portID">
                     <div class="">
                         <h4 class="text-lg-start">Liefde voor het volgende:</h4>
-                        <h5>Longboarden, snowboarden & programmeren. Daarnaast kook ik graag wat ik in het verleden een aantal jaar heb gedaan als Kok. Groot liefhebber van gezelligheid, sociaal & muziek!</h5>
+                        <h5 class="fw-bold">Sport</h5>
+                        <p>Longboarden, snowboarden & in de zomer wakeboarden. </p>
+                        <h5 class="fw-bold">Koken</h5>
+                        <p>Daarnaast kook ik graag wat ik in het verleden een aantal jaar heb gedaan als Kok.</p>
+                        <h5 class="fw-bold">Extra's</h5>
+                        <p>Groot liefhebber van gezelligheid, sociaal & muziek!</p>
                     </div>
                 </div>
             </div>

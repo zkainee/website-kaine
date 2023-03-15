@@ -34,6 +34,8 @@ $currentTime = date("H:i A")
                     <h4 class="text-lg-start">Waaraan heb ik allemaal gewerkt:</h4>
                     <h5 class="fw-bold">Reserveringsysteem</h5>
                     <p>Dit systeem is ontwikkeld voor theaterschool De Compagnie. Het gehele systeem is ontwikkeld in PHP, Bootstrap CSS & SQL. Deze techniek zal ingezet worden op het Koning Willem 1 College te 's-Hertogenbosch. Zie hier de <a title="GitHub" href="https://github.com/productiehuis/Reserveringsysteem" target="_blank">GitHub</a> </p>
+                    <h5 class="fw-bold">Minecraft</h5>
+                    <p>In mijn vrije tijd ben ik ook bezig met het ontwikkelen & leren van Minecraft plugins. Dit zijn extensies die je kan programmeren op de huidige game die de game interactiever & leuker maakt op alle schalen. Dit schrijf ik voornaamst in Java & MongoDB<p>
                 </div>
             </div>
         </div>

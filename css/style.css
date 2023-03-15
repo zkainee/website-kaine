@@ -88,3 +88,10 @@ body {
     font-style: italic;
     color: #ddd;
 }
+
+@media (min-width: 250px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+}
