@@ -18,9 +18,4 @@ function openTab() {
         openID.style.display = "block";
     }
 }
-// function toggleNavbarResponsive() {
-//     var navExpand = document.getElementsByClassName("navbarExpand");
-//     if (navExpand.style.display === "fles !important" && navExpand.style.flexBasis === "auto") {
-//         navExpand.hidden;
-//     }
-// }
+

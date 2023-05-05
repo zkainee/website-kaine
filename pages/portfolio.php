@@ -43,26 +43,26 @@ $currentTime = date("H:i A")
     <!-- NAVBAR-->
     <div class="start footer-padding navbar fixed-bottom navbar-expand-sm ">
         <!-- START -->
-        <div class="start-begin">
-            <a href="../index.php" title="Start"><img src="../img/icons/xp-app-logo.png" alt="logo" height="32px" width="32px"></a>
-        </div>
-        <div class="start-begin-between">
-        </div>
-        <!-- CENTER -->
-        <div class="start-bar bg-bar navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="../img/icons/winrar-app-logo.png" title="Portfolio" width="28px" height="28px" alt="winrar-logo"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="../pages/contact.php"><img src="../img/icons/msn-app-logo.png" title="Contact" width="28px" height="28px" alt="msn-logo"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="../pages/about-me.php"><img src="../img/icons/ie-app-logo.png" title="Over mij" width="28px" height="28px" alt="ie-logo" ></a>
-                </li>
-            </ul>
-        </div>
-        <!-- END -->
+        <div class="start-beg
+        <!-- END -->in">
+        <a href="../index.php" title="Start"><img src="../img/icons/xp-app-logo.png" alt="logo" height="32px" width="32px"></a>
+    </div>
+    <div class="start-begin-between">
+    </div>
+    <!-- CENTER -->
+    <div class="start-bar bg-bar navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#"><img src="../img/icons/winrar-app-logo.png" title="Portfolio" width="28px" height="28px" alt="winrar-logo"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="../pages/contact.php"><img src="../img/icons/msn-app-logo.png" title="Contact" width="28px" height="28px" alt="msn-logo"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="../pages/about-me.php"><img src="../img/icons/ie-app-logo.png" title="Over mij" width="28px" height="28px" alt="ie-logo" ></a>
+            </li>
+        </ul>
+    </div>
         <div class="end-begin-between">
         </div>
         <div class="end-menu-bar">
